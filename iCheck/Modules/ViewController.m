@@ -9,7 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+- (int)add;
 @end
 
 @implementation ViewController
@@ -25,5 +25,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-
+- (int)add{
+    return 1;
+}
 @end
