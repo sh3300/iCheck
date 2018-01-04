@@ -78,6 +78,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2292BB091FF61F76001794C6 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				22F682761FF5F41C00F503D5 /* AppDelegate.m */,
+				22F682751FF5F41C00F503D5 /* AppDelegate.h */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		2292BB0A1FF61FBF001794C6 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				22F682781FF5F41C00F503D5 /* ViewController.h */,
+				22F682791FF5F41C00F503D5 /* ViewController.m */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		2292BB0B1FF61FCB001794C6 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		2292BB0C1FF61FD6001794C6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2292BB0D1FF61FDF001794C6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2292BB0E1FF61FE5001794C6 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		2292BB0F1FF61FEF001794C6 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		2292BB101FF61FF8001794C6 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		22F682691FF5F41C00F503D5 = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +161,14 @@
 		22F682741FF5F41C00F503D5 /* iCheck */ = {
 			isa = PBXGroup;
 			children = (
-				22F682751FF5F41C00F503D5 /* AppDelegate.h */,
-				22F682761FF5F41C00F503D5 /* AppDelegate.m */,
-				22F682781FF5F41C00F503D5 /* ViewController.h */,
-				22F682791FF5F41C00F503D5 /* ViewController.m */,
+				2292BB091FF61F76001794C6 /* AppDelegate */,
+				2292BB0A1FF61FBF001794C6 /* Modules */,
+				2292BB0B1FF61FCB001794C6 /* Manager */,
+				2292BB0C1FF61FD6001794C6 /* Utils */,
+				2292BB0D1FF61FDF001794C6 /* Base */,
+				2292BB0E1FF61FE5001794C6 /* ThirdParty */,
+				2292BB101FF61FF8001794C6 /* Resource */,
+				2292BB0F1FF61FEF001794C6 /* Define */,
 				22F6827B1FF5F41C00F503D5 /* Main.storyboard */,
 				22F6827E1FF5F41C00F503D5 /* Assets.xcassets */,
 				22F682801FF5F41C00F503D5 /* LaunchScreen.storyboard */,
@@ -432,10 +496,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = iCheck/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.unicom.iCheck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -445,10 +510,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = iCheck/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.unicom.iCheck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
