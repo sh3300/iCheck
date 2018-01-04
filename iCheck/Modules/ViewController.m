@@ -26,6 +26,6 @@
 }
 
 - (int)add{
-    return 1;
+    return 2;
 }
 @end
